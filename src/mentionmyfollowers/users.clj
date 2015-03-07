@@ -15,12 +15,15 @@
 
 (def ^:private ^:dynamic *users* (agent (read-users)))
 
-(defn- add-user! [users user]
-    (let [users_ (assoc users (-> user :user :id) user)]
-        (with-open [out (io/writer (io/resource *users-file-name*))]
-            (binding [*out* out]
-                (pr users_)))
-        users_))
+(defn- add-user! [users json-user]
+    (binding [*out* *err*]
+        (println "Saving new json-user info: " json-user)
+        (let [user (json/parse-string json-user true)
+              users_ (assoc users (-> user :user :id) user)]
+            (with-open [out (io/writer (io/resource *users-file-name*))]
+                (binding [*out* out]
+                    (pr users_)))
+            users_)))
 
 (defn save-user-info! [code] 
     (http/post
@@ -35,5 +38,4 @@
                 (binding [*out* *err*]
                     (println "Could not get the authentication-token for code" code)
                     (println error))
-                (let [user (json/parse-string body true)]
-                    (send *users* add-user! user))))))
+                (send *users* add-user! body)))))
