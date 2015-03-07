@@ -16,7 +16,7 @@
 (def ^:private ^:dynamic *users* (agent (read-users)))
 
 (defn- add-user! [users user]
-    (let [users_ (conj users user)]
+    (let [users_ (assoc users (-> user :user :id) user)]
         (with-open [out (io/writer (io/resource *users-file-name*))]
             (binding [*out* out]
                 (pr users_)))
