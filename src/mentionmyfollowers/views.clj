@@ -15,7 +15,7 @@
 (defmethod view-type :unkown-request [& _] :unkown-request)
 
 (defmulti registration-view view-type)
-(defmethod registration-view :succes [result-type code] (str "User code: " code))
+(defmethod registration-view :success [result-type code] (str "User code: " code))
 (defmethod registration-view :access-denied [result-type error reason description]
     (str "User rejected the application: " reason "/" description))
 (defmethod registration-view :unknown-error [result-type error reason description]
