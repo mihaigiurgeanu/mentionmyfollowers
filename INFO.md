@@ -24,7 +24,7 @@ Steps to get followers of an account
     -F 'client_id=CLIENT-ID' \
     -F 'client_secret=CLIENT-SECRET' \
     -F 'grant_type=authorization_code' \
-    -F 'redirect_uri=http://dragon-alien.codio.io:3000/session' \
+    -F 'redirect_uri=http://dragon-alien.codio.io:3000/signup-result' \
     -F 'code=CODE' \
     https://api.instagram.com/oauth/access_token
 

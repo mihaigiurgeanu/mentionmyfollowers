@@ -18,10 +18,10 @@
     (GET "/signup-result" [code] 
          (when code 
              (save-user-info! code)
-             (registration-view :success code)))
+             (apply str (registration-view :success code))))
     (GET "/signup-result" [error error_reason error_description] 
-         (when error (registration-view :error error error_reason error_description)))
-    (GET "/signup-result" {params :params} (registration-view :unknown-request params))
+         (when error (apply str (registration-view :error error error_reason error_description))))
+    (GET "/signup-result" {params :params} (apply str (registration-view :unknown-request params)))
     (route/resources "/"))
 
 (defroutes web-app
