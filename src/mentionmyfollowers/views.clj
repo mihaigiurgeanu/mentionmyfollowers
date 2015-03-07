@@ -1,6 +1,6 @@
 (ns mentionmyfollowers.views)
 
-(defmulti error-type (fn [error] error {:default "unknown_error"}))
+(defmulti error-type (fn [error] error :default "unknown_error"))
 (defmethod error-type "access_denied" [_] :access-denied)
 (defmethod error-type "unknown_error" [_] :unknown-error)
 
