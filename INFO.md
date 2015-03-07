@@ -11,7 +11,7 @@ Steps to get followers of an account
 
 1. Direct the user to authentication url:
 
-    https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code
+    https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsignup-result&response_type=code
     
 2. Receive the code or error:
 
