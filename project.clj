@@ -7,7 +7,8 @@
                    [compojure "1.3.2"]
                    [ring/ring-defaults "0.1.4"]
                    [enlive "1.1.5"]
-                   [clj-json "0.5.3"]]
+                   [clj-json "0.5.3"]
+                   [http-kit "2.1.16"]]
     :plugins [[lein-ring "0.9.2"]]
     :ring {:handler mentionmyfollowers.core/web-app}
     :target-path "target/%s")
