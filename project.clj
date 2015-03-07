@@ -7,5 +7,5 @@
                    [compojure "1.3.2"]
                    [ring/ring-defaults "0.1.4"]]
     :plugins [[lein-ring "0.9.2"]]
-    :ring {:handler mentionmyfollowers.core/api}
+    :ring {:handler mentionmyfollowers.core/web-app}
     :target-path "target/%s")
