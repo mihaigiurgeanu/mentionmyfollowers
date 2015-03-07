@@ -30,7 +30,7 @@
                        "grant_type" "authorization_code"
                        "redirect_uri" "http://dragon-alien.codio.io:3000/signup-result"
                        "code" code}}
-        (fn [{:keys {status headers error body}}]
+        (fn [{:keys [status headers error body]}]
             (if error 
                 (binding [*out* *err*]
                     (println "Could not get the authentication-token for code" code)
