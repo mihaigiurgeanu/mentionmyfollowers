@@ -1,12 +1,15 @@
 (ns mentionmyfollowers.views
     (:require [net.cgrand.enlive-html :as html]))
 
+(html/defsnippet instagram-logout-script "templates/confirmation-page.html" [[:script html/last-of-type]] [])
+
 (html/deftemplate 
     index 
     "public/index.html"
     [title-text button-text]
     [:header#top :h3] (html/content title-text)
-    [:header#top :a] (html/content button-text))
+    [:header#top :a] (html/content button-text)
+    [:body] (html/append (instagram-logout-script)))
 
 (defmulti error-type (fn [error] error) :default "unknown_error")
 (defmethod error-type "access_denied" [_] :access-denied)
