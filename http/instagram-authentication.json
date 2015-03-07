@@ -1,0 +1,3706 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "534.59.10"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2015-03-07T02:42:48.303Z",
+        "id": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "title": "",
+        "pageTimings": {
+          "onContentLoad": 477,
+          "onLoad": 476
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:34:09.009Z",
+        "time": 489,
+        "request": {
+          "method": "GET",
+          "url": "https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "client_id",
+              "value": "b90fd0e7168c45c3a72f41ba2214a66e"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123"
+            },
+            {
+              "name": "response_type",
+              "value": "code"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Moved Temporarily",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:09 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "154"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Location",
+              "value": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:34:09.498Z",
+        "time": 754,
+        "request": {
+          "method": "GET",
+          "url": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "client_id",
+              "value": "b90fd0e7168c45c3a72f41ba2214a66e"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123"
+            },
+            {
+              "name": "response_type",
+              "value": "code"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 302,
+          "statusText": "FOUND",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Vary",
+              "value": "Cookie, Accept-Language"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Location",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "csrftoken=7def84c21086554172d226d9f1228e0c; expires=Sat, 05-Mar-2016 02:34:10 GMT; Max-Age=31449600; Path=/"
+            },
+            {
+              "name": "X-Instagram-Ssl-Wifi",
+              "value": "False"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "csrftoken",
+              "value": "7def84c21086554172d226d9f1228e0c",
+              "path": "/",
+              "expires": "2016-03-05T02:34:10.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://api.instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:34:10.252Z",
+        "time": 226,
+        "request": {
+          "method": "GET",
+          "url": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "force_classic_login",
+              "value": ""
+            },
+            {
+              "name": "next",
+              "value": "/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3822"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Vary",
+              "value": "Cookie, Accept-Language, Accept-Encoding"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "csrftoken=7def84c21086554172d226d9f1228e0c; expires=Sat, 05-Mar-2016 02:34:10 GMT; Max-Age=31449600; Path=/"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "X-Instagram-Ssl-Wifi",
+              "value": "False"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "csrftoken",
+              "value": "7def84c21086554172d226d9f1228e0c",
+              "path": "/",
+              "expires": "2016-03-05T02:34:10.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 12027,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 12027
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 9,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.473Z",
+        "time": 364,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/webfont.js",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5D4EFE9B02D3648A"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4521"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "og7rf8jJSRy9mOpLjHEwC2HtQ6wrQKy7j7YJxajN4We0RMvAY4/JxIWz/d+c+YHRMf3YAqHVKu0="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"74bbe0bbaec34e5bc8ee876682e0819a\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 11628,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 11628
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.474Z",
+        "time": 1140,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/cache/distillery/dialog-main.css",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "9221C0B7CAEB93AE"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "10240"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "6cyoqyAwn2NtvTaaSflgEhSXeOEqhSwskUrrxm2knt6CzIAwpxRTIARHardhj+Y6"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:27:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"ea5bdd8b15be7db534ed6aae60164465\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 66787,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 66787
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 56,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.475Z",
+        "time": 1083,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/jquery.js",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "B15DEE7EDA3DA33D"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "33620"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "RdXzFEIymi11If6EKpu7Q2EkoGR2f07YLOCYngbag4U/MxPtWkXGn93T6ZNFm0GF5i8Ngfse1Wc="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"3e2884729b63560a6a9d7c7f1b06d708\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 94840,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 94840
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.476Z",
+        "time": 357,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/bluebar.js",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "FB0F58FDB90114DF"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "896"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "xIdi/Pn5kaP0L7GSlvYwNs2LnUK6stkE5qKGeMdo5t7chJZAK6mb/NAX76YzS++AOVZD5gbZIu8="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"82a2da7055f2791f5d8f28c24ab3e799\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 1971,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 1971
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.477Z",
+        "time": 1081,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/polyfills/history.js/scripts/bundled/html5/native.history.js",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5078DB682088DDFF"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4748"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "rNmVZ/xjC41xYneAuNQbeAkDdXSS0U6nacYrPsFs5UvyUILCEVGjLs2gsMSXdfsx8z+aorYHbsY="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"055cd0ad6e94783d88d68dccbfb4d838\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 16054,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 16054
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:10.845Z",
+        "time": 712,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/cache/fonts.css",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "BB93A335725C86F9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "785"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "cW/kwOGCuJP4HQOAfZNR/jGS047m7Qh6sphAoVO5cJ2UnTOFIJPft8ymkDBsg9w5gUNGX9NLTho="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:27:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"b3820442ed5802b3c4a3457cf407b333\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 4708,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 4708
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 1,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.604Z",
+        "time": 116,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/bg/body_noise.png",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "67A12728032BBD4A"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4608"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "2NMS9xk/OTfw3886DaR0iKFQaPuXTPzeCrLnDFIbaD0ms7/pn2D7mP7pTvq51FNF"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"3dde86b586a77062bc698a6684a58a0f\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 4608,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 4608
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 1,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.604Z",
+        "time": 51,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/shared/noise-1.png",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "11EC8D0BC8EC6A53"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3116"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "GNk5PogugZPadotniOtbiSb4O0zaicavFEiftFpMBwMCvIFjhOjzWMDwuq0J3TA2"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"db6a0ccaec4a8ba581a6d46b769a4a45\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 3116,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 3116
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 1,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.605Z",
+        "time": 109,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/branding/new-logo.png",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "E096D8B073644B29"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5446"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "J5FfZAb9DHyR2Lqpwgy7wNldwM8wlIgDVUfOI1dkncFynt+qe2riPvCwCpmyanzV"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"eef02eddb6d1c1db41cc63ef889fac2e\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 5446,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 5446
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.606Z",
+        "time": 50,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-reg-webfont.woff",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5E7383F04FADA298"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13260"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "UiKHb7cmEr7Xfmm6AjBcHAKoACpr/RNLIPBFyXXAVFPD/P7DIBS/u4AdOHt/5Qt2"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"6fe130b46a2f39679dfaaeef6b204ad6\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13260,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13260
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.609Z",
+        "time": 106,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-sbold-webfont.woff",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "A711CE264752D29C"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13052"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "X+neplzUaDejLfrgic3klq+4+A2oA11+ehQ7sDGR/OQ/mDoZeGYA8v5Ki5m66Vcg"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"5272a2e0642990750580b5516a131751\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13052,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13052
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.612Z",
+        "time": 105,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-bold-webfont.woff",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "E5D7D9AC4003C520"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13180"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "jiCDsRZoN6rDoGR05EgMNqPVrAMqglZZfwUkMFZaZSP42pyEEmhREXiQpKBlRzmghCdVyBoF8Mg="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"b358c762ece8c2f5f8b7daf2b8daa40e\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13180,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13180
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 1,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:11.693Z",
+        "time": 413,
+        "request": {
+          "method": "GET",
+          "url": "https://ssl.google-analytics.com/ga.js",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 01:12:14 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Age",
+              "value": "4918"
+            },
+            {
+              "name": "Alternate-Protocol",
+              "value": "443:quic,p=0.08"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 05 Feb 2015 17:35:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=7200"
+            },
+            {
+              "name": "Content-Length",
+              "value": "16065"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 07 Mar 2015 03:12:14 GMT"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 40916,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 40916
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 46,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:34:12.135Z",
+        "time": 109,
+        "request": {
+          "method": "GET",
+          "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.6.3&utms=1&utmn=2090101023&utmhn=instagram.com&utme=8(page)9(Login)&utmcs=UTF-8&utmsr=1280x800&utmvp=1210x158&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=16.0%20r0&utmdt=Login&utmhid=1678925793&utmr=-&utmp=%2Faccounts%2Flogin%2F%3Fforce_classic_login%3D%26next%3D%2Foauth%2Fauthorize%2F%25253Fclient_id%25253Db90fd0e7168c45c3a72f41ba2214a66e%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fdragon-alien.codio.io%2525253A3000%2525252Fsession%2525253Fsession%2525253D123%252526response_type%25253Dcode&utmht=1425695652134&utmac=UA-18105282-1&utmcc=__utma%3D227057989.132592534.1425695652.1425695652.1425695652.1%3B%2B__utmz%3D227057989.1425695652.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=602477732&utmredir=1&utmu=qxAAAAAAAAAAAAAAAgAAAAAE~",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "utmwv",
+              "value": "5.6.3"
+            },
+            {
+              "name": "utms",
+              "value": "1"
+            },
+            {
+              "name": "utmn",
+              "value": "2090101023"
+            },
+            {
+              "name": "utmhn",
+              "value": "instagram.com"
+            },
+            {
+              "name": "utme",
+              "value": "8(page)9(Login)"
+            },
+            {
+              "name": "utmcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "utmsr",
+              "value": "1280x800"
+            },
+            {
+              "name": "utmvp",
+              "value": "1210x158"
+            },
+            {
+              "name": "utmsc",
+              "value": "24-bit"
+            },
+            {
+              "name": "utmul",
+              "value": "en-us"
+            },
+            {
+              "name": "utmje",
+              "value": "1"
+            },
+            {
+              "name": "utmfl",
+              "value": "16.0%20r0"
+            },
+            {
+              "name": "utmdt",
+              "value": "Login"
+            },
+            {
+              "name": "utmhid",
+              "value": "1678925793"
+            },
+            {
+              "name": "utmr",
+              "value": "-"
+            },
+            {
+              "name": "utmp",
+              "value": "%2Faccounts%2Flogin%2F%3Fforce_classic_login%3D%26next%3D%2Foauth%2Fauthorize%2F%25253Fclient_id%25253Db90fd0e7168c45c3a72f41ba2214a66e%252526redirect_uri%25253Dhttp%2525253A%2525252F%2525252Fdragon-alien.codio.io%2525253A3000%2525252Fsession%2525253Fsession%2525253D123%252526response_type%25253Dcode"
+            },
+            {
+              "name": "utmht",
+              "value": "1425695652134"
+            },
+            {
+              "name": "utmac",
+              "value": "UA-18105282-1"
+            },
+            {
+              "name": "utmcc",
+              "value": "__utma%3D227057989.132592534.1425695652.1425695652.1425695652.1%3B%2B__utmz%3D227057989.1425695652.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B"
+            },
+            {
+              "name": "utmjid",
+              "value": "602477732"
+            },
+            {
+              "name": "utmredir",
+              "value": "1"
+            },
+            {
+              "name": "utmu",
+              "value": "qxAAAAAAAAAAAAAAAgAAAAAE~"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:12 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 17 May 1998 03:00:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Alternate-Protocol",
+              "value": "443:quic,p=0.08"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 35
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 3,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:41:56.901Z",
+        "time": 1133,
+        "request": {
+          "method": "POST",
+          "url": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://instagram.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "force_classic_login",
+              "value": ""
+            },
+            {
+              "name": "next",
+              "value": "/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "csrfmiddlewaretoken=7def84c21086554172d226d9f1228e0c&username=mihaigiurgeanu&password=bambus",
+            "params": [
+              {
+                "name": "csrfmiddlewaretoken",
+                "value": "7def84c21086554172d226d9f1228e0c"
+              },
+              {
+                "name": "username",
+                "value": "mihaigiurgeanu"
+              },
+              {
+                "name": "password",
+                "value": "bambus"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 302,
+          "statusText": "FOUND",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:41:57 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 07 Mar 2015 02:41:57 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Vary",
+              "value": "Cookie, Accept-Language"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Location",
+              "value": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "csrftoken=9efb83e217cb5cb67786382d94603361; expires=Sat, 05-Mar-2016 02:41:57 GMT; Max-Age=31449600; Path=/, sessionid=IGSC630f7c36cb4bd911683978682a1e4c0a766087b35530f6f0acab372345fd5828%3AwARmEAMpAwjduVljUWfomFgiWDGIPxQq%3A%7B%22_auth_user_id%22%3A1731000665%2C%22_token%22%3A%221731000665%3AWDG9lB8PLVJvdhBNOG90ijUPts4HNiLH%3Aa1d71d0f250fd7540c85888b4a8c010817a8f0a2c16d881e7f9207102dedb9ae%22%2C%22_auth_user_backend%22%3A%22accounts.backends.CaseInsensitiveModelBackend%22%2C%22last_refreshed%22%3A1425696117.954459%2C%22_tl%22%3A1%2C%22_platform%22%3A4%7D; expires=Fri, 05-Jun-2015 02:41:57 GMT; Max-Age=7776000; Path=/;HttpOnly"
+            },
+            {
+              "name": "X-Instagram-Ssl-Wifi",
+              "value": "False"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "csrftoken",
+              "value": "9efb83e217cb5cb67786382d94603361",
+              "path": "/",
+              "expires": "2015-06-05T02:41:57.000Z",
+              "httpOnly": true,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode",
+        "startedDateTime": "2015-03-07T02:41:58.034Z",
+        "time": 686,
+        "request": {
+          "method": "GET",
+          "url": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://instagram.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/accounts/login/?force_classic_login=&next=/oauth/authorize/%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%253A%252F%252Fdragon-alien.codio.io%253A3000%252Fsession%253Fsession%253D123%26response_type%3Dcode"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "client_id",
+              "value": "b90fd0e7168c45c3a72f41ba2214a66e"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123"
+            },
+            {
+              "name": "response_type",
+              "value": "code"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:41:58 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4102"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Vary",
+              "value": "Cookie, Accept-Language, Accept-Encoding"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "csrftoken=9efb83e217cb5cb67786382d94603361; expires=Sat, 05-Mar-2016 02:41:58 GMT; Max-Age=31449600; Path=/, ds_user_id=1731000665; expires=Fri, 05-Jun-2015 02:41:58 GMT; Max-Age=7776000; Path=/"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "X-Instagram-Ssl-Wifi",
+              "value": "False"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "csrftoken",
+              "value": "9efb83e217cb5cb67786382d94603361",
+              "path": "/",
+              "expires": "2015-06-05T02:41:58.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 12470,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 12470
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 21,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.702Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/webfont.js",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5D4EFE9B02D3648A"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4521"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "og7rf8jJSRy9mOpLjHEwC2HtQ6wrQKy7j7YJxajN4We0RMvAY4/JxIWz/d+c+YHRMf3YAqHVKu0="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"74bbe0bbaec34e5bc8ee876682e0819a\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 11628,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 11628
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.703Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/cache/distillery/dialog-main.css",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "9221C0B7CAEB93AE"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "10240"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "6cyoqyAwn2NtvTaaSflgEhSXeOEqhSwskUrrxm2knt6CzIAwpxRTIARHardhj+Y6"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:27:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"ea5bdd8b15be7db534ed6aae60164465\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 66787,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 66787
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.712Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/bg/body_noise.png",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "67A12728032BBD4A"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4608"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "2NMS9xk/OTfw3886DaR0iKFQaPuXTPzeCrLnDFIbaD0ms7/pn2D7mP7pTvq51FNF"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"3dde86b586a77062bc698a6684a58a0f\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 4608,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 4608
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.713Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/shared/noise-1.png",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "11EC8D0BC8EC6A53"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3116"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "GNk5PogugZPadotniOtbiSb4O0zaicavFEiftFpMBwMCvIFjhOjzWMDwuq0J3TA2"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"db6a0ccaec4a8ba581a6d46b769a4a45\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 3116,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 3116
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.713Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/images/branding/new-logo.png",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "E096D8B073644B29"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5446"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "J5FfZAb9DHyR2Lqpwgy7wNldwM8wlIgDVUfOI1dkncFynt+qe2riPvCwCpmyanzV"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"eef02eddb6d1c1db41cc63ef889fac2e\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 5446,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 5446
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.714Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/scripts/polyfills/history.js/scripts/bundled/html5/native.history.js",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5078DB682088DDFF"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4748"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "rNmVZ/xjC41xYneAuNQbeAkDdXSS0U6nacYrPsFs5UvyUILCEVGjLs2gsMSXdfsx8z+aorYHbsY="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"055cd0ad6e94783d88d68dccbfb4d838\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 16054,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 16054
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.720Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://ssl.google-analytics.com/ga.js",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 01:12:14 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Age",
+              "value": "4918"
+            },
+            {
+              "name": "Alternate-Protocol",
+              "value": "443:quic,p=0.08"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 05 Feb 2015 17:35:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=7200"
+            },
+            {
+              "name": "Content-Length",
+              "value": "16065"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 07 Mar 2015 03:12:14 GMT"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 40916,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 40916
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.764Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/cache/fonts.css",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "BB93A335725C86F9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "785"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "cW/kwOGCuJP4HQOAfZNR/jGS047m7Qh6sphAoVO5cJ2UnTOFIJPft8ymkDBsg9w5gUNGX9NLTho="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:27:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"b3820442ed5802b3c4a3457cf407b333\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 4708,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 4708
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.772Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-bold-webfont.woff",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "E5D7D9AC4003C520"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13180"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "jiCDsRZoN6rDoGR05EgMNqPVrAMqglZZfwUkMFZaZSP42pyEEmhREXiQpKBlRzmghCdVyBoF8Mg="
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"b358c762ece8c2f5f8b7daf2b8daa40e\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13180,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13180
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.773Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-reg-webfont.woff",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "5E7383F04FADA298"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13260"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "UiKHb7cmEr7Xfmm6AjBcHAKoACpr/RNLIPBFyXXAVFPD/P7DIBS/u4AdOHt/5Qt2"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"6fe130b46a2f39679dfaaeef6b204ad6\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13260,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13260
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.773Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://instagramstatic-a.akamaihd.net/bluebar/43f1141/webfonts/proximanova-sbold-webfont.woff",
+          "headers": [
+            
+          ],
+          "queryString": [
+            
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:34:11 GMT"
+            },
+            {
+              "name": "X-Amz-Request-Id",
+              "value": "A711CE264752D29C"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13052"
+            },
+            {
+              "name": "X-Amz-Id-2",
+              "value": "X+neplzUaDejLfrgic3klq+4+A2oA11+ehQ7sDGR/OQ/mDoZeGYA8v5Ki5m66Vcg"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 06 Mar 2015 20:28:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "Etag",
+              "value": "\"5272a2e0642990750580b5516a131751\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-font-woff"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public,max-age=315360000"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 13052,
+            "mimeType": "application/x-font-woff"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 13052
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:41:58.801Z",
+        "time": 209,
+        "request": {
+          "method": "GET",
+          "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.6.3&utms=2&utmn=811392097&utmhn=instagram.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1210x158&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=16.0%20r0&utmdt=Authorization%20Request%20%E2%80%94%20Instagram&utmhid=1539185000&utmr=0&utmp=%2Foauth%2Fauthorize%2F%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%25253A%25252F%25252Fdragon-alien.codio.io%25253A3000%25252Fsession%25253Fsession%25253D123%26response_type%3Dcode&utmht=1425696118798&utmac=UA-18105282-1&utmcc=__utma%3D227057989.132592534.1425695652.1425695652.1425695652.1%3B%2B__utmz%3D227057989.1425695652.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qhAAAAAAAAAAAAAAAAAAAAAE~",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "utmwv",
+              "value": "5.6.3"
+            },
+            {
+              "name": "utms",
+              "value": "2"
+            },
+            {
+              "name": "utmn",
+              "value": "811392097"
+            },
+            {
+              "name": "utmhn",
+              "value": "instagram.com"
+            },
+            {
+              "name": "utmcs",
+              "value": "UTF-8"
+            },
+            {
+              "name": "utmsr",
+              "value": "1280x800"
+            },
+            {
+              "name": "utmvp",
+              "value": "1210x158"
+            },
+            {
+              "name": "utmsc",
+              "value": "24-bit"
+            },
+            {
+              "name": "utmul",
+              "value": "en-us"
+            },
+            {
+              "name": "utmje",
+              "value": "1"
+            },
+            {
+              "name": "utmfl",
+              "value": "16.0%20r0"
+            },
+            {
+              "name": "utmdt",
+              "value": "Authorization%20Request%20%E2%80%94%20Instagram"
+            },
+            {
+              "name": "utmhid",
+              "value": "1539185000"
+            },
+            {
+              "name": "utmr",
+              "value": "0"
+            },
+            {
+              "name": "utmp",
+              "value": "%2Foauth%2Fauthorize%2F%3Fclient_id%3Db90fd0e7168c45c3a72f41ba2214a66e%26redirect_uri%3Dhttp%25253A%25252F%25252Fdragon-alien.codio.io%25253A3000%25252Fsession%25253Fsession%25253D123%26response_type%3Dcode"
+            },
+            {
+              "name": "utmht",
+              "value": "1425696118798"
+            },
+            {
+              "name": "utmac",
+              "value": "UA-18105282-1"
+            },
+            {
+              "name": "utmcc",
+              "value": "__utma%3D227057989.132592534.1425695652.1425695652.1425695652.1%3B%2B__utmz%3D227057989.1425695652.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B"
+            },
+            {
+              "name": "utmjid",
+              "value": ""
+            },
+            {
+              "name": "utmu",
+              "value": "qhAAAAAAAAAAAAAAAAAAAAAE~"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 05 Mar 2015 01:09:55 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Age",
+              "value": "178323"
+            },
+            {
+              "name": "Content-Length",
+              "value": "35"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Alternate-Protocol",
+              "value": "443:quic,p=0.08"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-cache=Set-Cookie, proxy-revalidate"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 19 Apr 2000 11:43:00 GMT"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 35,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 35
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 3,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:42:47.265Z",
+        "time": 1038,
+        "request": {
+          "method": "POST",
+          "url": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://instagram.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "client_id",
+              "value": "b90fd0e7168c45c3a72f41ba2214a66e"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123"
+            },
+            {
+              "name": "response_type",
+              "value": "code"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "csrfmiddlewaretoken=9efb83e217cb5cb67786382d94603361&allow=Authorize",
+            "params": [
+              {
+                "name": "csrfmiddlewaretoken",
+                "value": "9efb83e217cb5cb67786382d94603361"
+              },
+              {
+                "name": "allow",
+                "value": "Authorize"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 302,
+          "statusText": "FOUND",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:42:48 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Vary",
+              "value": "Cookie, Accept-Language"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Location",
+              "value": "http://dragon-alien.codio.io:3000/session?session=123&code=13e67770d9cf424ca98e383735c1d7ba"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "csrftoken=9efb83e217cb5cb67786382d94603361; expires=Sat, 05-Mar-2016 02:42:48 GMT; Max-Age=31449600; Path=/"
+            },
+            {
+              "name": "X-Instagram-Ssl-Wifi",
+              "value": "False"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "csrftoken",
+              "value": "9efb83e217cb5cb67786382d94603361",
+              "path": "/",
+              "expires": "2016-03-05T02:42:48.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "http://dragon-alien.codio.io:3000/session?session=123&code=13e67770d9cf424ca98e383735c1d7ba",
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 0,
+          "ssl": -1
+        }
+      },
+      {
+        "pageref": "https://instagram.com/oauth/authorize/?client_id=b90fd0e7168c45c3a72f41ba2214a66e&redirect_uri=http%3A%2F%2Fdragon-alien.codio.io%3A3000%2Fsession%3Fsession%3D123&response_type=code",
+        "startedDateTime": "2015-03-07T02:42:48.303Z",
+        "time": 477,
+        "request": {
+          "method": "GET",
+          "url": "http://dragon-alien.codio.io:3000/session?session=123&code=13e67770d9cf424ca98e383735c1d7ba",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://instagram.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-us"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.59.10 (KHTML, like Gecko) Version/5.1.9 Safari/534.59.10"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "session",
+              "value": "123"
+            },
+            {
+              "name": "code",
+              "value": "13e67770d9cf424ca98e383735c1d7ba"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "headersSize": -1,
+          "bodySize": -1
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 07 Mar 2015 02:42:48 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "63"
+            },
+            {
+              "name": "Server",
+              "value": "ngx_openresty/1.4.3.6"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html;charset=UTF-8"
+            }
+          ],
+          "cookies": [
+            
+          ],
+          "content": {
+            "size": 63,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 63
+        },
+        "cache": {
+          
+        },
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": -1,
+          "wait": -1,
+          "receive": 7,
+          "ssl": -1
+        }
+      }
+    ]
+  }
+}
