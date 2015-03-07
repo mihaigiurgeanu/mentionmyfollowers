@@ -1,12 +1,17 @@
 (ns mentionmyfollowers.views)
 
-(defmulti error-type (fn [error] error :default "unknown_error"))
+(defmulti error-type (fn [error] error) :default "unknown_error")
 (defmethod error-type "access_denied" [_] :access-denied)
 (defmethod error-type "unknown_error" [_] :unknown-error)
 
 (defmulti view-type (fn [result-type & view-params] result-type))
 (defmethod view-type :success [& _] :success)
-(defmethod view-type :error [_ error & _] (error-type error))
+(defmethod view-type :error [_ error & _] 
+    (println "Getting dispatch-value for error" error)
+    (let [the-type (error-type error)]
+        (println "...got error type for" error the-type)
+        the-type))
+
 (defmethod view-type :unkown-request [& _] :unkown-request)
 
 (defmulti registration-view view-type)
