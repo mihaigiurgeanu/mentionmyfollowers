@@ -1,15 +1,30 @@
 (ns mentionmyfollowers.core
     (:use compojure.core
-          ring.middleware.defaults)
-    (:require [compojure.route :as route]))
+          ring.middleware.defaults
+          mentionmyfollowers.views
+          mentionmyfollowers.users)
+    (:require [compojure.route :as route]
+              [ring.util.response :as response]))
 
-(defroutes api-routes
-    (GET "/api/followers" [u p] (str "request followers for " u " with pass " p))
-    (GET "/session" [session code] 
-         (when code (str "Received code " code " for session " session "\n")))
-    (GET "/session" [session error error_reason error_description] 
-         (when error (str "Received error " error "/" error_reason "/" error_description " for session " session "\n")))
-    (GET "/session" req (str "Unkonwn session request params: " (:params req)))
-    (route/not-found "Service not found"))
+(defroutes route-api
+    (GET "/api/users" [] (str "request to return the registered users"))
+    (GET "/api/users/:user" [user] (str "request to get info about specific user: " user))
+    (GET "/api/followers/:user" [user] (str "request followers for " user))
+    (GET "/api/followers" [] (str "request to get all followers"))
+    (GET "/api/addUserCode" req (str "Unkonwn session request params: " (:params req))))
 
-(def api (wrap-defaults api-routes api-defaults))
+(defroutes route-views
+    (GET "/" [] (response/redirect "/index.html"))
+    (GET "/signup-result" [code] 
+         (when code 
+             (save-user-info! code)
+             (registration-view :success code)))
+    (GET "/signup-result" [error error_reason error_description] 
+         (when error (registration-view :error error error_reason error_description)))
+    (GET "/signup-result" {params :params} (registration-view :unknown-request params))
+    (route/resources "/"))
+
+(defroutes web-app
+    (wrap-defaults route-api api-defaults) 
+    (wrap-defaults route-views site-defaults)
+    (route/not-found (str "Service or page not found")))
