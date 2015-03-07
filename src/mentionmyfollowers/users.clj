@@ -35,5 +35,5 @@
                 (binding [*out* *err*]
                     (println "Could not get the authentication-token for code" code)
                     (println error))
-                (let [user (json/pase-string body true)]
+                (let [user (json/parse-string body true)]
                     (send *users* add-user! user))))))
