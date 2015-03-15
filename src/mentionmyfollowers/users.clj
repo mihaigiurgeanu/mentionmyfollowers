@@ -73,7 +73,10 @@
         (loop [{:keys [body error status]} @search-request received-ids []]
             (check-and-throw-http-error! error status)
             (let [{:keys [data next-url]} 
-                  (collect-data body #(concat received-ids (map :id %)))]
+                  (collect-data body (fn [users]
+                                         (binding [*out* *err*]
+                                             (doall (map #(println "Received user:" (:id %) (:username %) (:full_name %)) users)))
+                                         (concat received-ids (map :id users))))]
                 (if next-url
                     (recur (http/get next-url) data)
                     data)))))
