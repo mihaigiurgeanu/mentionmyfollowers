@@ -34,13 +34,15 @@
     or the access_token is not available, the middleware throws exception."
     [handler]
     (fn [{{user-id :user-id} :params :as req}]
-        (let [token (access-token user-id)]
-            (if token
-                (handler (assoc-in req [:params :access-token] token))
-                (throw (ex-info "Access token is missing. The user must register app in his/her instagram account."
-                                {:error_type "MissingAccessToken"
-                                 :code 400
-                                 :error_message (str "Missing access_token for user id " user-id)}))))))
+        (if user-id
+            (let [token (access-token user-id)]
+                (if token
+                    (handler (assoc-in req [:params :access-token] token))
+                    (throw (ex-info "Access token is missing. The user must register app in his/her instagram account."
+                                    {:error_type "MissingAccessToken"
+                                     :code 400
+                                     :error_message (str "Missing access_token for user id " user-id)}))))
+            (handler req))))
 
 (defn- replace-user-names [handler]
     "Ring middleware that checks the :params map from request if it has
