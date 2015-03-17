@@ -10,7 +10,7 @@
     "Reads the users form the *users-file-name*. The file is searched
     in the class path."
     []
-    (with-open [in (java.io.PushbackReader. (io/reader (io/resource *users-file-name*)))]
+    (with-open [in (java.io.PushbackReader. (io/reader *users-file-name*))]
         (edn/read in)))
 
 (def ^:private ^:dynamic *users* (agent (read-users)))
@@ -21,7 +21,7 @@
         (let [user (json/parse-string json-user true)]
             (if-let [user-id (-> user :user :id)]
                 (let [users_ (assoc users user-id user)]
-                    (with-open [out (io/writer (io/resource *users-file-name*))]
+                    (with-open [out (io/writer *users-file-name*)]
                         (binding [*out* out]
                             (pr users_)))
                     users_)
