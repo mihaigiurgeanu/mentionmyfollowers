@@ -76,7 +76,7 @@
                   (collect-data body (fn [users]
                                          (binding [*out* *err*]
                                              (doall (map #(println "Received user:" (:id %) (:username %) (:full_name %)) users)))
-                                         (concat received-ids (map :id users))))]
+                                         (concat received-ids (map :id (filter #(= user-name (:username %)) users)))))]
                 (if next-url
                     (recur (http/get next-url) data)
                     data)))))
