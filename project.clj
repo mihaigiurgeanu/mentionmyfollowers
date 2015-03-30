@@ -1,5 +1,5 @@
-(defproject mentionmyfollowers "0.1.0-SNAPSHOT"
-    :description "FIXME: write description"
+(defproject mentionmyfollowers "0.1.0"
+    :description "Server side support for mentionmyfollowers chrome extension."
     :url "http://example.com/FIXME"
     :license {:name "Eclipse Public License"
               :url "http://www.eclipse.org/legal/epl-v10.html"}
