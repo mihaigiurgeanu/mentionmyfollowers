@@ -11,4 +11,5 @@ pom.xml.asc
 /dist/*.jar
 /users.edn
 /mentionmyfollowers-*.zip
+*~
 
