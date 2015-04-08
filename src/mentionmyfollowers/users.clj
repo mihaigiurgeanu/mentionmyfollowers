@@ -58,9 +58,14 @@
         (let [{response-meta :meta data :data {next-url :next_url} :pagination} (json/parse-string body true)]
             (if (not= 200 (:code response-meta))
                 (binding [*out* *err*] (println "Error returned by instagram api call" response-meta))
-                {:data (collect-fn data)
-                 :next-url next-url}))
-        {:data (collect-fn []) :next-url nil}))
+                (do
+                    (binding [*out* *err*] (println "collect-data - no of items received" (count data)))
+                    {:data (collect-fn data)
+                     :next-url next-url})))
+        (do
+            (binding [*out* *err*]
+                (println "collect-data received nil body. collecting no results"))
+            {:data (collect-fn []) :next-url nil})))
 
 (defn search-users [access-token user-name]
     (binding [*out* *err*]
@@ -78,7 +83,7 @@
                                              (doall (map #(println "Received user:" (:id %) (:username %) (:full_name %)) users)))
                                          (concat received-ids (map :id (filter #(= user-name (:username %)) users)))))]
                 (if next-url
-                    (recur (http/get next-url) data)
+                    (recur @(http/get next-url) data)
                     data)))))
 
 (defn search-followers [access-token user-id]
@@ -92,8 +97,14 @@
             (check-and-throw-http-error! error status)
             (let [{:keys [data next-url]}
                   (collect-data body #(concat received-followers (map :username %)))]
+                (binding [*out* *err*] 
+                    (println "search-followers next-url" next-url)
+                    (println "previously received followers count" (count received-followers))
+                    (println "collected-data count" (count data)))
                 (if next-url
-                    (recur (http/get next-url) data)
+                    (do
+                        (binding [*out* *err*] (println "following next-url" next-url))
+                        (recur @(http/get next-url) data))
                     data)))))
 
 (defn access-token [user-id] 
