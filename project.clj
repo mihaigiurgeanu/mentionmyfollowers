@@ -10,6 +10,6 @@
                    [clj-json "0.5.3"]
                    [http-kit "2.1.16"]
                    [ring-middleware-format "0.4.0"]]
-    :plugins [[lein-ring "0.9.1"]]
+    :plugins [[lein-ring "0.9.2"]]
     :ring {:handler mentionmyfollowers.core/web-app}
     :target-path "target/%s")
