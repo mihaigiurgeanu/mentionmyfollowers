@@ -1,6 +1,8 @@
 # mentionmyfollowers
 
-Server side support for mentionmyfollowers chrome extension.
+Using instagram api, the software makes a list of your account 
+followers and let you select who you want to mention in your comments, 
+automatically building and posting comments.
 
 ## Installation
 
